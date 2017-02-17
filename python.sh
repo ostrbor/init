@@ -22,4 +22,4 @@ sudo pip3 install ptipython
 sudo pip3 install jedi json-rpc service_factory
 sudo pip3 install autoflake isort yapf flake8
 sudo pip3 install virtualenvwrapper
-
+sudo pip3 install twine
