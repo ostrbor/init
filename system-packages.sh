@@ -27,3 +27,6 @@ sudo apt-get -y install fabric
 sudo apt-get -y install asciinema
 sudo apt-get -y install openvpn
 
+sudo apt-get -y install boinc-client boinc-manager # cluster computing
+
+sudo apt-get -y install whois # contains mkpasswd utility
