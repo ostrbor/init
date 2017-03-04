@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 # Repos
-sudo add-apt-repository ppa:ubuntu-elisp/ppa # emacs
-sudo apt-add-repository ppa:jtaylor/keepass
-sudo add-apt-repository ppa:peterlevi/ppa #variety
-sudo add-apt-repository ppa:aacebedo/fasd
+sudo add-apt-repository -y ppa:ubuntu-elisp/ppa # emacs
+sudo apt-add-repository -y ppa:jtaylor/keepass
+sudo add-apt-repository -y ppa:peterlevi/ppa #variety
+sudo add-apt-repository -y ppa:aacebedo/fasd
 sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner" # skype
-sudo apt-add-repository ppa:ansible/ansible
+sudo apt-add-repository -y ppa:ansible/ansible
 sudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser
 
 # Update
