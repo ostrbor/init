@@ -7,3 +7,6 @@ emacs
 dropbox start -i
 skype
 variety
+
+# printer
+# delete then run sudo hp-setup -i

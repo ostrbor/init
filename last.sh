@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+
+# change size of cursor
+dconf write /org/gnome/desktop/interface/cursor-size 48
+
 cd ~
 mkdir Devel
 cp -a ~/Dropbox/Home/. ~

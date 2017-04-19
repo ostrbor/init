@@ -23,6 +23,7 @@ sudo apt-get -y install ansible
 sudo apt-get -y install sqlitebrowser
 sudo apt-get -y install nvidia-375 # check for latest version
 sudo apt-get -y install smartmontools
+curl -L http://bit.ly/glances | /bin/bash
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

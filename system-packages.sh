@@ -26,7 +26,11 @@ sudo apt-get -y install zsh
 sudo apt-get -y install fabric
 sudo apt-get -y install asciinema
 sudo apt-get -y install openvpn
+sudo apt-get -y install htop
 
 sudo apt-get -y install boinc-client boinc-manager # cluster computing
 
 sudo apt-get -y install whois # contains mkpasswd utility
+
+# To use htpasswd
+sudo apt-get -y install apache2-utils
